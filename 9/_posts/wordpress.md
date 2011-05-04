@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Gedit Kullanımı
+title: foo
 ---
 <a href="http://cehars.wordpress.com///">http://cehars.wordpress.com///</a>
