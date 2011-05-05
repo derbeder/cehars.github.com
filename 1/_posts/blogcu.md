@@ -2,5 +2,5 @@
 layout: post
 title: foo
 ---
-http://cehars.blogcu.com
 
+<a href="http://cehars.blogcu.com//">http://cehars.blogcu.com//</a>
