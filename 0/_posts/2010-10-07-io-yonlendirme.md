@@ -5,7 +5,7 @@ title: Neden Linux
 
 Özgür dünyada, kişisel seçimlerimizle yaşayan bizler, kullandığımız ya da etkileşime girdiğimiz her kavramda seçme inisiyatifine sahibiz. Bilgisayarlarımızda kullandığımız işletim sistemleri de bu seçimlerimize konu olan yüzlerce unsurdan sadece biri. Ama önemli olanlardan biri. İşletim sistemi seçimlerinde pek çok temel kriterin göz önünde bulundurulması gerekirken, genellikle son kullanıcılar üzerindeki etkili kriterin baskın pazarlama politikaları olduğunu görüyoruz. Bu sebepledir ki alternatif sistemlere göre daha fazla esnekliği ve verimi sıfır maliyetle sunan Linux, ancak belirli bir bilinç seviyesinden sonra son kullanıcıların masaüstlerinde yerini alabiliyor. Peki Linux gerçekten benzerlerinden daha mı iyi? Cevabı, son kullanıcılar için geçerli olan birkaç platformda Linux’un özelliklerini değerlendirerek bulmak en iyisi. Linux’un neden yüzbinlerce insanı peşinden sürüklediğini keşfetmeye hazırsanız başlıyoruz.
 
-Kolay Ulaşılabilirlik
+<p>Kolay Ulaşılabilirlik</p>
 Linux için ücret ödemek zorunda değilsiniz. Hatta sahip olmak için bir mağazaya gitmeniz ya da yeni bir bilgisayar almanız da gerekmez. Bir internet bağlantınızın olması yeterlidir ya da bir arkadaşınızın sizin için Linux cd’sini kopyalaması…Evet evet…Yanlış duymadınız. Kopyalamak. Özgür yazılım felsefesi gereğince GPL lisanslı tüm yazılımlar kopyalanabilir, çoğaltılabilir, dağıtılabilir, içeriği değiştirilebilir ve ihtiyaçlara göre modifiye edilebilir. Üstelik bunlar için hiç kimse sizden en ufak bir ücret talep etmez. Diğer işletim sistemleri için harcayacağınız tutarlar (en az 150 YTL) göz önünde tutulduğunda Linux’a sahip olmanın ne kadar kolay olduğu rahatlıkla görülebilir.
 
 Açık Kaynak ve Ulusal Güvenlik
