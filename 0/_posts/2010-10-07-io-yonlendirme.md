@@ -27,7 +27,7 @@ Windows için yazılmış 100.000 civarında virüs Linux üzerinden tamamen har
 <p>Daha Kararlı ve Sağlam Bir Sistem</p>
 Linux sistemler hiç kapatılmadan yıllarca çalışabilirler. Çekirdeği de ilgilendiren türden olmadıkça güncellemelerde yeniden başlatılmaya ihtiyaç duymazlar. Çalışmalarınıza kesintiye uğramadan, güvenle devam edebilirsiniz.
 
-Görsellik / Çeşitlilik
+<p>Görsellik / Çeşitlilik</p>
 Yaşamımızdaki herşey gibi bilgisayarlarımızda kullandığımız sistemlerin de göze hoş gelen, heyecan verici, yormayan, kullanımı zevkli ürünler olmasını isteriz. Linux bu isteğimizi de esnek tasarımı, farklı masaüstü yöneticileri, hayal gücünüzle sınırlı kişiselleştirilebilme seçenekleriyle harikulade bir şekilde yerine getirir. Üstelik diğer işletim sistemleri gibi pahalı işlemcilere ve gigabyte’lar dolusu belleğe ihtiyaç duymadan.
 
 Bugün yeryüzünde 500’den fazla değişik Linux dağıtımı vardır. Bu da aynı işi yapmanın 500’den fazla değişik ve eğlenceli yolu olduğu anlamına gelir. Bu dağıtımlarda da farklı masaüstü yöneticileriyle (Gnome, KDE, Xfce vb.) tarzınıza en uygun çalışma ortamında işlerinizi yürütürsünüz.
