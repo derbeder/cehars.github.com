@@ -32,7 +32,7 @@ Yaşamımızdaki herşey gibi bilgisayarlarımızda kullandığımız sistemleri
 
 Bugün yeryüzünde 500’den fazla değişik Linux dağıtımı vardır. Bu da aynı işi yapmanın 500’den fazla değişik ve eğlenceli yolu olduğu anlamına gelir. Bu dağıtımlarda da farklı masaüstü yöneticileriyle (Gnome, KDE, Xfce vb.) tarzınıza en uygun çalışma ortamında işlerinizi yürütürsünüz.
 
-Performans
+<p>Performans</p>
 Linux, doğası gereği hızlıdır. Diğer işletim sistemleri gibi zaman geçtikçe hantallaşmaz. Donanımların yeteneklerini son derece verimli kullanır. Çalışmak için yüksek konfigürasyonlar gerektirmez. 800 Mhz işlemcili ve 512 MB bellekli bir sistemde dahi rahatlıkla çalışır. Dosya sistemi, tasarımı sebebiyle kırılmaya (fragmantasyon) uğramaz. Bu sebeple sabit diskinize erişim hızınız asla düşmez. Diğer işletim sistemlerindeki gibi ardı ardına kurup sildiğiniz programlar sisteminizin performansını etkilemez. Sisteminizin kontrolü sizdedir, sizin kontrolünüz sisteminizde değil…
 
 Pratik Kurulum
