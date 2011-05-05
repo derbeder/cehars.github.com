@@ -81,10 +81,10 @@ param:
         # sitede kullanılan bazı metinler
         # --------------------------------------------------------------
         section0: Web Günlüğü
-        section1: Makaleler
+        section1: Blogcu
         section2: İlkeler
         section7: Çeşitli
-        section9: Notlar
+        section9: Wordpress
 
         # --------------------------------------------------------------
         # ekstra özellik parametreleri
