@@ -35,16 +35,16 @@ Bugün yeryüzünde 500’den fazla değişik Linux dağıtımı vardır. Bu da 
 <p>Performans</p>
 Linux, doğası gereği hızlıdır. Diğer işletim sistemleri gibi zaman geçtikçe hantallaşmaz. Donanımların yeteneklerini son derece verimli kullanır. Çalışmak için yüksek konfigürasyonlar gerektirmez. 800 Mhz işlemcili ve 512 MB bellekli bir sistemde dahi rahatlıkla çalışır. Dosya sistemi, tasarımı sebebiyle kırılmaya (fragmantasyon) uğramaz. Bu sebeple sabit diskinize erişim hızınız asla düşmez. Diğer işletim sistemlerindeki gibi ardı ardına kurup sildiğiniz programlar sisteminizin performansını etkilemez. Sisteminizin kontrolü sizdedir, sizin kontrolünüz sisteminizde değil…
 
-Pratik Kurulum
+<p>Pratik Kurulum</p>
 Bir Windows’u kurmuş olmak, yapılacak işlere yeni başlamak demektir. Sadece kurmanız yetmez. Ses duyabilmeniz için ses kartını, görsel fonksiyonlar için ekran kartını, internete bağlanmak için kablosuz ağ ya da ethernet kartını, entegre kart okuyucunuzun denetleyecisini tanıtmanız gerekir. Her biri için ayrı ayrı CD’lerden sürücüler kurarsınız. İhtiyacınız olan herşey Linux dağıtımınızın CD’sinin içinde vardır ve sadece salt kurulumu 40 dakika süren Windows’un aksine 20-25 dakika içinde tüm sisteminiz, donanımları da tanınmış bir halde karşınızdadır. Durmayalım, devam edelim. Windows’ta kullanacağımız pek çok programı da kurmamız ve güncellemelerini de yapmamız gerekir. O da ne? Linux 25 dakikada kurulurken, ofis programları da dahil, çoklu ortam, sohbet vb. pek çok programı kurmuş bile.
 
-Kolay Güncelleme
+<p>Kolay Güncelleme</p>
 Update modülüyle Windows da kolayca güncelleme yapabilir. Ama sadece kendisini. Linux dağıtımınızda ise Paket Yöneticinizi kullanarak hem işletim sisteminizi hem de üzerinde kurulu olan tüm programlarınızı tek bir tıklama ile güncelleyebilirsiniz.
 
-Program Bulma ve Kurma
+<p>Program Bulma ve Kurma</p>
 Diğer işletim sistemlerinde olduğunun aksine Linux’ta bir program için internette araştırma yapmanız, ücret ödeyip indirmeniz ya da cd satın almanız, programı kurduktan sonra sistemi yeniden başlatmanız gerekmez. Programı doğrudan kullandığınız dağıtımın program deposundan bulur ve bir tıklama ile bilgisayarınıza kurabilirsiniz. Yazılım ihtiyacınızı diğer platformlar gibi kontrolsüz (internet) ortamlar yerine, test edilmiş ve sürekli kontrol altında tutulan depolardan giderdiğiniz için de güvenli bir yazılım kullandığınızdan emin olursunuz.
 
-Beyin Gücünün Gelişimi
+<p>Beyin Gücünün Gelişimi</p>
 Linux, açık kaynak kodlu bir işletim sistemi olduğundan öğrenmeyi ve keşfetme isteğini tetikler. Bu sayede ülkelerde sadece kapalı kaynak kodlu işletim sistemlerinin ayarlarını yapmayı öğrenip sertifika alan operatörler yerine programlamada ileri seviyede, hızlı gelişen, yaratıcı, özgür zihinlerin doğmasına yardımcı olur. Bu sayede ülkenin yazılım ihtiyacı iç kaynaklardan sağlanabilir ve teknolojide kullanıcı olma halinden üreten durumuna dönüşüm sağlanabilir. Linux’un açıklığından yararlanıp, kullandığı programları daha fazla kurcalamak, modifiye etmek için programlama öğrenmeye meyil eden kullanıcıların sayısı azımsanamayacak kadar çoktur.
 Kurulumdan kullanıma, geliştirmeden paylaşıma, performanstan görselliğe; Linux’un biz kullanıcılara sunduğu sınırsız dünyayı yaşayarak öğrenmek en iyisi…Binlerce insanın yanımızda yürümeye can attığı bu dünyaya girip onu tanımak, inandığımız ya da inandırıldığımız pek çok düşünceyi sorgulamamıza, bir adım öteye ilerlememize ve bazı soruların gitgide önemini yitirmesine sebep olacaktır. Bazı soruların cevapları hep aynı olacaktır.
 Biz de şimdi, belki tek bir cümleyle yanıtlamalıydık “Neden Linux kullanmalıyız” sorusunu. Öğrenmek için, keşfetmek için, gelişmek için, yaratmak için, daha iyi olmak için, özgürlük için!
