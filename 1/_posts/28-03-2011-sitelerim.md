@@ -5,5 +5,6 @@ title: sitelerim
 
 <p><a href="http://cehars.tr.gg">http://cehars.tr.gg</a></p>
 <p><a href="http://cehars.blogcu.com//">http://cehars.blogcu.com</a></p>
+<p><a href="http://cehars.blogspot.com/">http://cehars.blogspot.com/</a></p>
 <p><a href="http://cehars.wordpress.com/">http://cehars.wordpress.com</a></p>
 
