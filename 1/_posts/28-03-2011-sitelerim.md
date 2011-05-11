@@ -2,7 +2,6 @@
 layout: post
 title: sitelerim
 ---
-http://cehars.forumup.com/
 <p>tr.gg --> <a href="http://cehars.tr.gg">http://cehars.tr.gg</a></p>
 <p>forumup --> <a href="http://cehars.forumup.com">http://cehars.forumup.com/</a></p>
 <p>blogcu --> <a href="http://cehars.blogcu.com//">http://cehars.blogcu.com</a></p>
