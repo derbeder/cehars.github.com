@@ -5,80 +5,82 @@ title: ubuntu windows program karşılaştırmaları
 
 Windows Media Player - AmaroK, Mplayer, VLC Media Player
 
-Winamp - Xmms
+Winamp         -       Xmms
 
-Internet Explorer - Firefox, Konqueror
+Internet Explorer  -   Firefox, Konqueror
 
-Outlook Express - Thunderbird, Kmail
+Outlook Express  -     Thunderbird, Kmail
 
-Microsoft Office - Open Office Org
+Microsoft Office -     Open Office Org
 
-Frontpage - NVU
+Frontpage -            NVU
 
-Denetim Masası - Tasma, Yast, Anaconda
+Denetim Masası -       Tasma, Yast, Anaconda
 
-Program Ekle Kaldır - Pisi
+Program Ekle Kaldır -  Pisi
 
-Görev Yöneticisi - KsysGuard
+Görev Yöneticisi -     KsysGuard
 
-Nero - K3B
+Nero -                 K3B
 
-Photoshop - Gimp
+Photoshop -            Gimp
 
-3D Studio Max - Blender
+3D Studio Max -        Blender
 
-Autocad - Qcad, Varicad
+Autocad -              Qcad, Varicad
 
-Delphi - Lazarus ,Kylix (Dellphi linux)
+Delphi -               Lazarus ,Kylix (Dellphi linux)
 
-Visual Basic - Real Basic , Gambas
+Visual Basic -         Real Basic , Gambas
 
-.Net Framework - Mono
+.Net Framework -       Mono
 
-Visual Studio .Net - Mono Develop
+Visual Studio .Net -   Mono Develop
 
 DC++ - valknut
 
-Dreamveawer Flash - Flash4linux
+Dreamveawer Flash -    Flash4linux
 
-IIS - Apache Web Sunucu
+IIS -                  Apache Web Sunucu
 
-Notepad - Kate
+Notepad -              Kate
 
-Wordpad - Kwrite
+Wordpad -              Kwrite
 
-Edit (Konsol Ekranında) - Emacs (Konsol), Xemacs (Pencere)
+Edit -                 Emacs (Konsol), Xemacs (Pencere)
 
-Partition Magic - QTparted
+Partition Magic -      QTparted
 
-JVM - JVM JRE
+JVM -                  JVM JRE
 
-FlashGet - Flashgot
+FlashGet -             Flashgot
 
-Bittorent - Cbittorrent (c++ ile linux için yazılmış hali)
+Bittorent -            Cbittorrent (c++ ile linux için yazılmış hali)
 
-Mirc - KVIrc, Xchat
+Mirc -                 KVIrc, Xchat
 
-Msn Messenger - Amsn
+Msn Messenger -        Amsn
 
 Yahoo Messenger, ICQ - Kopete, Mercury
 
-WS Ftp, Bullet Proof Ftp, CuteFtp - Kasablanca, Gftp, KBear
+WS Ftp CuteFtp -       Kasablanca, Gftp, KBear
 
-Ulead Video Studio - Kino
+Ulead Video Studio -   Kino
 
-Matlab - Octave, Scilab, R, Yorrik, rlab, Yacas, Euler
+Matlab -               Octave, Scilab, R, Yorrik, rlab, Yacas, Euler
 
-Skype - Skype
 
-Gaim - Gaim
 
-Doom 3 - Doom 3
+Skype -                Skype
 
-Nero - NeroLINUX
+Gaim -                 Gaim
 
-eDonkey - eDonkey
+Doom 3 -               Doom 3
 
-Matlab - Matlab
+Nero -                 NeroLINUX
+
+eDonkey -              eDonkey
+
+Matlab -               Matlab
 
 
