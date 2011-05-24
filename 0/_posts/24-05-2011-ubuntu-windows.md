@@ -3,15 +3,15 @@ layout: post
 title: ubuntu windows program karşılaştırmaları
 ---
 
-Windows Media Player - AmaroK, Mplayer, VLC Media Player
+Windows Media Player-> AmaroK, Mplayer, VLC Media Player
 
-Winamp         -       Xmms
+Winamp --------------> Xmms
 
-Internet Explorer  -   Firefox, Konqueror
+Internet Explorer ---> Firefox, Konqueror
 
-Outlook Express  -     Thunderbird, Kmail
+Outlook Express -----> Thunderbird, Kmail
 
-Microsoft Office -     Open Office Org
+Microsoft Office ----> Open Office Org
 
 Frontpage -            NVU
 
@@ -82,5 +82,3 @@ Nero -                 NeroLINUX
 eDonkey -              eDonkey
 
 Matlab -               Matlab
-
-
