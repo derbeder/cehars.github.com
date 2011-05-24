@@ -3,47 +3,43 @@ layout: post
 title: ubuntu windows program karşılaştırmaları
 ---
 
-Windows Media Player_________________________________AmaroK, Mplayer, VLC Media Player
-Winamp_____________________________________________Xmms
-Internet Explorer_____________________________________Firefox, Konqueror
-Outlook Express______________________________________Thunderbird, Kmail
-Microsoft Office______________________________________Open Office Org
-Frontpage__________________________________________NVU
-Denetim Masası______________________________________Tasma, Yast, Anaconda
-Program Ekle Kaldır___________________________________Pisi
-Görev Yöneticisi______________________________________KsysGuard
-Nero_______________________________________________K3B
-Photoshop__________________________________________Gimp
-3D Studio Max_______________________________________Blender
-Autocad____________________________________________Qcad, Varicad
-Delphi______________________________________________Lazarus ,Kylix (Dellphi linux)
-Visual Basic_________________________________________Real Basic , Gambas
-.Net Framework______________________________________Mono
-Visual Studio .Net____________________________________Mono Develop
-DC++______________________________________________valknut
-Dreamveawer Flash___________________________________Flash4linux
-IIS_________________________________________________Apache Web Sunucu
-Notepad____________________________________________Kate
-Wordpad__________________________________________Kwrite
-Edit (Konsol Ekranında)________________________________Emacs (Konsol), Xemacs (Pencere)
-Partition Magic_______________________________________QTparted
-JVM________________________________________________JVM JRE
-FlashGet____________________________________________Flashgot
-Bittorent____________________________________________Cbittorrent (c++ ile linux için yazılmış hali)
-Mirc________________________________________________KVIrc, Xchat
-Msn Messenger_______________________________________Amsn
-Yahoo Messenger, ICQ_________________________________Kopete, Mercury
-WS Ftp, Bullet Proof Ftp, CuteFtp________________________Kasablanca, Gftp, KBear
-Ulead Video Studio____________________________________Kino
-Matlab______________________________________________Octave, Scilab, R, Yorrik, rlab, Yacas, Euler
+Windows Media Player - AmaroK, Mplayer, VLC Media Player
+Winamp - Xmms
+Internet Explorer - Firefox, Konqueror
+Outlook Express - Thunderbird, Kmail
+Microsoft Office - Open Office Org
+Frontpage - NVU
+Denetim Masası - Tasma, Yast, Anaconda
+Program Ekle Kaldır - Pisi
+Görev Yöneticisi - KsysGuard
+Nero - K3B
+Photoshop - Gimp
+3D Studio Max - Blender
+Autocad - Qcad, Varicad
+Delphi - Lazarus ,Kylix (Dellphi linux)
+Visual Basic - Real Basic , Gambas
+.Net Framework - Mono
+Visual Studio .Net - Mono Develop
+DC++ - valknut
+Dreamveawer Flash - Flash4linux
+IIS - Apache Web Sunucu
+Notepad - Kate
+Wordpad - Kwrite
+Edit (Konsol Ekranında) - Emacs (Konsol), Xemacs (Pencere)
+Partition Magic - QTparted
+JVM - JVM JRE
+FlashGet - Flashgot
+Bittorent - Cbittorrent (c++ ile linux için yazılmış hali)
+Mirc - KVIrc, Xchat
+Msn Messenger - Amsn
+Yahoo Messenger, ICQ - Kopete, Mercury
+WS Ftp, Bullet Proof Ftp, CuteFtp - Kasablanca, Gftp, KBear
+Ulead Video Studio - Kino
+Matlab - Octave, Scilab, R, Yorrik, rlab, Yacas, Euler
 
-
-                                    -------------------------------------------------------------------------------------
-                                 ------------------------------ORTAK PROGRAMLAR----------------------------------
-
-Skype_______________________________________________Skype
-Gaim________________________________________________Gaim
-Doom 3______________________________________________Doom 3
-Nero________________________________________________NeroLINUX
-eDonkey_____________________________________________eDonkey
-Matlab_______________________________________________Matlab
+Skype - Skype
+Gaim - Gaim
+Doom 3 - Doom 3
+Nero - NeroLINUX
+eDonkey - eDonkey
+Matlab - Matlab
