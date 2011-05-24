@@ -5,7 +5,7 @@ title: ubuntu windows program karşılaştırmaları
 
 Windows Media Player   AmaroK, Mplayer, VLC Media Player
 
-Winamp                 Xmms
+Winamp       -         Xmms
 
 Internet Explorer      Firefox, Konqueror
 
