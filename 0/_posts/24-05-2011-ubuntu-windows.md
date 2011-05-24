@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu windows program karşılaştırmaları
+title: Ubuntu windows program karşılaştırmaları
 ---
 
 Windows Media Player - AmaroK, Mplayer, VLC Media Player
