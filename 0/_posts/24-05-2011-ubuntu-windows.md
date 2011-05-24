@@ -3,7 +3,7 @@ layout: post
 title: ubuntu windows program karşılaştırmaları
 ---
 
-Windows Media Player - AmaroK, Mplayer, VLC Media Player
+<a>Windows Media Player - AmaroK, Mplayer, VLC Media Player</a>
 Winamp - Xmms
 Internet Explorer - Firefox, Konqueror
 Outlook Express - Thunderbird, Kmail
