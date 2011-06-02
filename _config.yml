@@ -81,10 +81,10 @@ param:
         # sitede kullanılan bazı metinler
         # --------------------------------------------------------------
         section0: Web Günlüğü
-        section1: iletişim
+        section1: Makaleler
         section2: İlkeler
         section7: Çeşitli
-        section9: E-mail
+        section9: Notlar
 
         # --------------------------------------------------------------
         # ekstra özellik parametreleri
