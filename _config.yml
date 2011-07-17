@@ -69,13 +69,13 @@ param:
         # GnuPG kısa parmak izi (ör. DEADBEEF)
         gpg: ~
         # twitter adresi (ör. http://19.status.net/roktas)
-        twitter: http://19.status.net/cehars
+        twitter: http://twitter.com/#!/cehars
         # flick adresi (ör. http://flickr.com/photos/roktas)
-        flickr: 
+        flickr: http://www.flickr.com/photos/cehars
         # facebook adresi (ör. http://facebook.com/roktas)
         facebook: http://facebook.com/cehars
         # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
-        feed: ~
+        feed: http://feeds.feedburner.com/cehars
 
         # --------------------------------------------------------------
         # sitede kullanılan bazı metinler
@@ -105,6 +105,6 @@ param:
         # google analytics takip numarası (ör. UA-1234567-8
         googleanalyticsid: UA-23696222-1
         # sayfa yorumları için disqus site kaydı (ör. roktas)
-        disqus: cehars
+        disqus: ceharstwi
         # GitHub şerit metni (ör. GitHub'dayım)
         ribbon: Gücü özgürlüğünde..
