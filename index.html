@@ -239,6 +239,37 @@ setInterval("say()", 1000);
 </script>
 <div id="kimlik"> </div>
 
+------------------
+<?php
+function sayac() {
+
+$ip=$_SERVER['REMOTE_ADDR'];
+$time=time();
+$limit=$time-60*5;
+$kota= mysql_query("DELETE FROM online WHERE tarih<'$limit'");
+
+$ipsorgu=mysql_query("select*from online where ip='$ip'");
+$ipline=mysql_num_rows($ipsorgu);
+
+if($ipline==0) {
+
+$gir="insert into online values ('','$ip','$time')";
+$girsor=mysql_query($gir);
+
+}
+else {
+$update=mysql_query("update online set tarih='$time' where ip='$ip'");
+
+}
+
+$kac=mysql_query("select id from online");
+$kacline=mysql_num_rows($kac);
+
+echo 'su an sitede '.$kacline.' ziyaretci bulunmakta';
+
+}
+
+?>
 
 </div>
   
