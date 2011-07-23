@@ -240,6 +240,17 @@ setInterval("say()", 1000);
 <div id="kimlik"> </div>
 
 
+<?
+$reg = fopen("sayac.txt", "r"); 
+$line = fgets($reg,100); 
+fclose($reg); 
+$reg = fopen("sayac.txt", "w"); 
+$count = $line+1; 
+fputs($reg,$count,100); 
+echo "Ziyaretçi: $count"; 
+fclose($reg); 
+?> 
+
 </div>
   
 <!--
