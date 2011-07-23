@@ -9,7 +9,10 @@ layout: nil
  */
 body {
 background-color: none;
-background-image:url('../chrome/hack.gif');
-background-attachment:fixed
+background-image:url('../chrome/207.jpg');
+/*
+background-repeat:no-repeat 
+*/
+ 
 }
 
