@@ -243,35 +243,34 @@ setInterval("say()", 1000);
 
 
 <?php
-//ErsaT
-//Mysql bağlantı
-$bagla = mysql_connect('localhost', 'user_kullanici', 'user_kullanici_password');
-mysql_select_db('veritabani_ismi');
-
-function sayac(){
-    global $bagla;
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $tarih = time();
-    $zamanasimi = time()-86400;
-    //1 günlük zamanaşımına uğrayan ip leri sil
-    mysql_query("Delete From ip_tablom where zaman < ".$zamanasimi);
-    
-    $sonuc = mysql_query("Select Count(ip) From ip_tablom where ip='$ip'");
-    $sayi = mysql_result($sonuc,0);
-    
-        if($sayi ==0){
-            mysql_query("Insert Into ip_tablom (ip, zaman) Values ('$ip', '$tarih')");
-            mysql_query("Update sayac_tablom Set tekil_hit=(tekil_hit+1), cogul_hit=(cogul_hit+1) where id=1");
-        }else{
-            mysql_query("Update sayac_tablom Set cogul_hit=(cogul_hit+1) where id=1");
-        }
-    
-    $sonuc2 = mysql_query("Select tekil_hit, cogul_hit From sayac_tablom where id=1");
-    $satir = mysql_fetch_array($sonuc2);
-    echo 'Toplam Tekil Hit: <strong>'.$satir['tekil_hit'].'</strong><br>';
-    echo 'Toplam Çoğul Hit: <strong>'.$satir['cogul_hit'].'</strong><br>';
-mysql_close($bagla);
+function sayac() {
+ 
+$ip=$_SERVER['REMOTE_ADDR'];
+$time=time();
+$limit=$time-60*5;
+$kota= mysql_query("DELETE FROM online WHERE tarih<'$limit'");
+ 
+$ipsorgu=mysql_query("select*from online where ip='$ip'");
+$ipline=mysql_num_rows($ipsorgu);
+ 
+if($ipline==0) {
+ 
+$gir="insert into online values ('','$ip','$time')";
+$girsor=mysql_query($gir);
+ 
 }
+else {
+$update=mysql_query("update online set tarih='$time' where ip='$ip'");
+ 
+}
+ 
+$kac=mysql_query("select id from online");
+$kacline=mysql_num_rows($kac);
+ 
+echo 'su an sitede '.$kacline.' ziyaretci bulunmakta';
+ 
+}
+ 
 ?>
 
 
