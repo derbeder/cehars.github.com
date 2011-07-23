@@ -5,12 +5,6 @@ title: cehars
 
 <div id="home">
 
-<script type="text/javascript" language="javascript">
-
-alert("http://cehars.wordpress.com");
-
-</script>
-
 <br>
    <pre>
 <a href="http://cehars.blogspot.com/2011/07/freebsd.html"target="_blank"> <img align=middle src="/chrome/cehars19/41.png" width="100 " height="100"></a><span class="Apple-style-span" style="font-size: 17px; line-height: 23px; font-family: Comic Sans MS; color: red;" ><i>         > > > COMPUTER SCİENCE AND ENGİNEERİNG < < < </i></span><a href="http://cehars.wordpress.com/2011/07/20/freebsd/"target="_blank"><img align="right" align=middle src="/chrome/cehars19/40.png" width="100 " height="100"></a>
@@ -25,6 +19,24 @@ alert("http://cehars.wordpress.com");
 
 	<center><p><img src="/chrome/cehars19/310.jpg" width="500 " height="200"></p></center>
 <a href=http://cehars.github.com/903/iletişim/><img align="right" src="/chrome/cehars19/314.jpg" width="120 " height="50"></a>
+
+<script type="text/javascript">
+var saniye=0;
+
+function say(){
+
+    saniye = saniye +1;   
+
+    var eleman= document.getElementById("kimlik");
+
+    eleman.innerHTML=saniye;	
+}
+
+setInterval("say()", 1000);
+
+</script>
+
+<div id="kimlik"> </div>
 
   {% include html/archive %}
   
