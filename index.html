@@ -241,38 +241,28 @@ setInterval("say()", 1000);
 
 ------------------
 
+
+
 <?php
-function sayac() {
 
-$ip=$_SERVER['REMOTE_ADDR'];
-$time=time();
-$limit=$time-60*5;
-$kota= mysql_query("DELETE FROM online WHERE tarih<'$limit'");
+$dosya="kayit.txt";
 
-$ipsorgu=mysql_query("select*from online where ip='$ip'");
-$ipline=mysql_num_rows($ipsorgu);
+$d = fopen($dosya, r);
+$bilgi = fread($d, filesize($dosya)); 
+$yeni= $bilgi+1;
+fclose($d);
 
-if($ipline==0) {
-
-$gir="insert into online values ('','$ip','$time')";
-$girsor=mysql_query($gir);
-
-}
-else {
-$update=mysql_query("update online set tarih='$time' where ip='$ip'");
-
+if($d = fopen($dosya, w))
+{
+    fwrite($d, $yeni);    
+    fclose($d);
+}else{
+    print "Ftp ile dosyaya sağ tıklayıp 777 yapın";
 }
 
-$kac=mysql_query("select id from online");
-$kacline=mysql_num_rows($kac);
-
-echo 'su an sitede '.$kacline.' ziyaretci bulunmakta';
-
-}
-
+print $yeni;
+    
 ?>
-
-
 
 -----------------
 </div>
