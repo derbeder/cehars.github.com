@@ -243,103 +243,36 @@ setInterval("say()", 1000);
 
 
 <?php
+//ErsaT
+//Mysql bağlantı
+$bagla = mysql_connect('localhost', 'user_kullanici', 'user_kullanici_password');
+mysql_select_db('veritabani_ismi');
 
-
-$Kim = $_SERVER['REMOTE_ADDR'];
-//Ziyaretçini İp Numarasını Alıyoruz.
-$Tarih = date("d-m-Y"); $Zaman = time();
-//Tarihi Aldık Şuanki Zamanı Time Formatında Aldık
-$Cikis = $Zaman - 300;
-//Cikis Süresini Ayarlıyorz.300 Saniye 5 Dakika Eder
-$Sid = session_id();
-//Session id Tanımlandı
-
-$ziyaretci = mysql_query("select * from ip where Ip='$kim'"); 
-//Gelen Ziyaretçinin Önceden Veritabanına Kayıtlı Olup Olmadığını Kontrol Ediyoruz.
-$zsay = mysql_num_rows($ziyaretci);
-//$Kim Değişkenindeki Ziyaretciyi Saydırıyoruz.
-
-if($zsay == 1) { 
-
-//Eğer Varsa
-
-$gunkontrol = mysql_query("select * from ip where Ip='$Kim' and Tarih<NOW() LIMIT 1"); 
-//Kayıt Edildiği Günü Kontrol Ediyoruz.
-$guns = mysql_num_rows($gunkontrol);
-//Saydırıyoruz.
-
-if($guns == 1) { 
-
-//Eğer Varsa
-
-$guncelle = mysql_query("update ip set Tarih=NOW(),Saat='$Zaman',Tekil=Tekil+1,Cogul=Cogu l+1,Durum='Online' where Ip='$Kim' LIMIT 1"); 
-
-//Güncelleme Yapılıyor.
-
-//Tarih,Saat,Tekil Ziyaret,Çoğul Ziyaret,Durum Güncellendi.
-
-} 
-
-else
-
-// Eğer Yoksa
-
-{ 
-
-$guncelle = mysql_query("update ip set Cogul=Cogul+1,Saat='$Zaman',Durum='Online' where Ip='$Kim' LIMIT 1"); 
-
-//Güncelleme Yapılıyor.
-
-//Saat,Çoğul Ziyaret,Durum Güncellendi.
-
-} 
-
+function sayac(){
+    global $bagla;
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $tarih = time();
+    $zamanasimi = time()-86400;
+    //1 günlük zamanaşımına uğrayan ip leri sil
+    mysql_query("Delete From ip_tablom where zaman < ".$zamanasimi);
+    
+    $sonuc = mysql_query("Select Count(ip) From ip_tablom where ip='$ip'");
+    $sayi = mysql_result($sonuc,0);
+    
+        if($sayi ==0){
+            mysql_query("Insert Into ip_tablom (ip, zaman) Values ('$ip', '$tarih')");
+            mysql_query("Update sayac_tablom Set tekil_hit=(tekil_hit+1), cogul_hit=(cogul_hit+1) where id=1");
+        }else{
+            mysql_query("Update sayac_tablom Set cogul_hit=(cogul_hit+1) where id=1");
+        }
+    
+    $sonuc2 = mysql_query("Select tekil_hit, cogul_hit From sayac_tablom where id=1");
+    $satir = mysql_fetch_array($sonuc2);
+    echo 'Toplam Tekil Hit: <strong>'.$satir['tekil_hit'].'</strong><br>';
+    echo 'Toplam Çoğul Hit: <strong>'.$satir['cogul_hit'].'</strong><br>';
+mysql_close($bagla);
 }
-
-else 
-
-//Eğer Yoksa
-
-{ 
-
-$ekle = mysql_query("INSERT INTO `ip` ( `Sirasi` , `Ip` , `Tarih` , `Saat` , `Tekil` , `Cogul` , `Durum` ) VALUES (NULL , '$Kim', NOW(), '$Zaman', '1', '1' ,'Online');"); 
-
-//İp Tablosun Ekleme İşlemi Yapılıyor.
-
-if($ekle) // Eger Ekleme İşlermi Olduysa Kontrol Etmek Amaçlı
-print "<script>window.lokasyon='?Sid=$Sid'</script>"; 
-//Yönlendirme Yapılıyor.
-
-} 
-
-$onlineziyaret = mysql_query("select * from ip where Saat<$Cikis and Durum='Online' LIMIT 1"); 
-//Zamanı Dolmuş Kullanıcılar Kontrol Ediliyor.
-$onlinesay = mysql_num_rows($onlineziyaret); 
-//Online Ziyaretçiler Sayılıyor.
-
-if($onlinesay == 1) { 
-//Eğer Varsa
-
-$guncelle = mysql_query("update ip set Durum='Ofline' where Saat<$Cikis LIMIT 1"); 
-//Durumu Ofline Haline Getirildi
-
-} 
-
-$iptablosu = mysql_query("REPAIR TABLE `ip`"); 
-//İp Tablosu Tamir Ediliyor.
-
-} 
-
-$toplamonline = mysql_query("select * from ip where Durum='Online'"); 
-//Sayfaya Yazdırmak İçin Bütün Online Ziyaretçiler Kontrol Ediliyor
-$saysay = mysql_num_rows($toplamonline); 
-//Sayılıyor
-
-echo "$saysay"; 
-//Ekrana Yazdırılıyor.
-
 ?>
-
 
 
 -----------------
