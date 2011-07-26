@@ -61,3 +61,14 @@ Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi 
 
 
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
+
+
+<pre class="brush: bash; title: ; notranslate" title="">cd ~</pre> 
+<p>2. Betiği arşivden çıkarmak için;</p> 
+<pre class="brush: bash; title: ; notranslate" title="">tar zxvf eDergi.tar.gz</pre> 
+<p>3. Betiğe çalıştırma yetkisi verme;</p> 
+<pre class="brush: bash; title: ; notranslate" title="">chmod a+x eDergi</pre> 
+<p>4. Betiği çalıştırma;</p> 
+<pre class="brush: bash; title: ; notranslate" title="">./eDergi</pre> 
+<p style="text-align: justify;"><strong>Not:</strong> Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak çalıştırabilirsiniz. Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.</p> 
+<pre class="brush: bash; title: ; notranslate" title="">sh eDergi</pre> 
