@@ -32,7 +32,7 @@ Sürenin artma sebebi ise; betiğe eklenen internet bağlantı kontrolü ve derg
 listelerden alınmasından kaynaklanmaktadır.
 
 <p style="text-align: justify;">Betiğin ekran görüntüleri şöyle;</p> 
-<img title="eDergi İndirme Betiği" src="/chrome/yazılar/betik/1"  width="578" height="293" />
+<img src="/chrome/yazılar/betik/1"  width="578" height="293" />
 <img src="/chrome/yazılar/betik/1" width="588" height="137" />
 <img src="/chrome/yazılar/betik/1" width="643" height="125" /> 
 
