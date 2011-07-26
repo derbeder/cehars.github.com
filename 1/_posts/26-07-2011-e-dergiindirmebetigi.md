@@ -62,4 +62,4 @@ Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi 
 <br/>
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
 
-<p color="red"><a href="http://cehars.github.com>anasayfa</a><p>
+   <span class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;"> ana sayfa </span>
