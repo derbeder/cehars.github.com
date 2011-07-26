@@ -61,3 +61,5 @@ Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi 
 
 <br/>
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
+
+<p color="red"><a href="http://cehars.github.com>anasayfa</a><p>
