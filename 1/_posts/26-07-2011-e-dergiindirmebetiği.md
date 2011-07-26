@@ -44,7 +44,7 @@ Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yaz�
 
 
 1. Betiğin bulunduğu dizine gidelim;<br/>
-&gt;&gt;&gt; cd ~
+<pre>&gt;&gt;&gt; cd ~</pre>
 
 2. Betiği arşivden çıkarmak için;<br/>
 &gt;&gt;&gt; tar zxvf eDergi.tar.gz
