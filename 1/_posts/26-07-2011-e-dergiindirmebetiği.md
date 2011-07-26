@@ -38,4 +38,4 @@ listelerden alınmasından kaynaklanmaktadır.
 
 Betiği aşağıdaki bağlantıdan indirebilirsiniz.
 
-<a href="http://www.emreaytac.com/diger/eDergi.tar.gz"target="_blank">eDergi İndirme Betiği<a>
+<a href="http://www.emreaytac.com/diger/eDergi.tar.gz" target="_blank">eDergi İndirme Betiği<a>
