@@ -59,5 +59,5 @@ Not: Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak ç
 Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.<br/>
 <pre>cehars@ceng:~$ sh eDergi</pre>
 
-
+<br/>
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
