@@ -20,8 +20,8 @@ sadece betiğe yeni bir özellik eklendiğinde indirmeniz yeterli.
 Betiğin yeni sürümünde aşağıdaki resimlerden de görüleceği üzere bir takım yenilikler mevcuttur. Bu yenilikler;
 
 <ul style="text-align: justify;"> 
-<li>Dergilerin belli sayılarını indirme özelliği eklenmiştir. (Öneri ve Bash programlamada yaptığı yardımlar için Ubuntu  Türkiye Forumu&#8217;ndan <strong>@hitokiri</strong>&#8216;ye teşekkürler <img title="Mutlu" src="http://forum.ubuntu-tr.net/Smileys/default/smiley.gif" alt=":)" /> )</li> 
-<li>İnternet bağlantısının bulunup bulunmadığını kontrol etme özelliği eklenmiştir. (Ubuntu-tr-betik içerisindeki bağlantı kodunu kullanmama izin verdiği için Ubuntu  Türkiye Forumu&#8217;ndan <strong>@ironic</strong>&#8216;e teşekkürler.)</li> 
+<li>Dergilerin belli sayılarını indirme özelliği eklenmiştir.</li> 
+<li>İnternet bağlantısının bulunup bulunmadığını kontrol etme özelliği eklenmiştir. </li> 
 <li>Dergiler wget ile indirilirken ekrana gelen çıktılar sadeleştirilmiştir.</li> 
 <li>Betik çalıştırıldığında karşımıza gelen listedeki dergi sayılarının elle betik içerisine yazılması yerine bu işlemin Dropbox hesabındaki listeler içinden alınması sağlanmıştır.</li> 
 </ul> 
