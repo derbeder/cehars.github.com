@@ -50,7 +50,7 @@ location = document.selecter.select1.options[document.selecter.select1.selectedI
 --------------------------------------------------------------------------------------------------------------------
 
 /*
-uzay scripti
+uzay
 */
 <!--- KAYNAK: http://www.gezginler.net --->
 <body bgcolor=#000000 onLoad="fly()">
