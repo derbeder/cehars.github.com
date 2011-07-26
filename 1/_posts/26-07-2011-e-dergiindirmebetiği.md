@@ -47,28 +47,17 @@ Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yaz�
 <pre>cehars@ceng:~$ cd ~</pre>
 
 2. Betiği arşivden çıkarmak için;<br/>
-&gt;&gt;&gt; tar zxvf eDergi.tar.gz
+<pre>cehars@ceng:~$ tar zxvf eDergi.tar.gz</pre>
 
 3. Betiğe çalıştırma yetkisi verme;<br/>
-&gt;&gt;&gt; chmod a+x eDergi
+<pre>cehars@ceng:~$ chmod a+x eDergi</pre>
 
 4. Betiği çalıştırma;<br/>
-&gt;&gt;&gt; ./eDergi
+<pre>cehars@ceng:~$ ./eDergi</pre>
 
 Not: Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak çalıştırabilirsiniz. 
 Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.<br/>
-&gt;&gt;&gt; sh eDergi
+<pre>cehars@ceng:~$ sh eDergi</pre>
 
 
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
-
-
-<pre class="brush: bash; title: ; notranslate" title="">cd ~</pre> 
-<p>2. Betiği arşivden çıkarmak için;</p> 
-<pre class="brush: bash; title: ; notranslate" title="">tar zxvf eDergi.tar.gz</pre> 
-<p>3. Betiğe çalıştırma yetkisi verme;</p> 
-<pre class="brush: bash; title: ; notranslate" title="">chmod a+x eDergi</pre> 
-<p>4. Betiği çalıştırma;</p> 
-<pre class="brush: bash; title: ; notranslate" title="">./eDergi</pre> 
-<p style="text-align: justify;"><strong>Not:</strong> Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak çalıştırabilirsiniz. Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.</p> 
-<pre class="brush: bash; title: ; notranslate" title="">sh eDergi</pre> 
