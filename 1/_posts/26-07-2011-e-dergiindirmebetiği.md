@@ -40,7 +40,7 @@ Betiği aşağıdaki bağlantıdan indirebilirsiniz.
 
 <a href="http://www.emreaytac.com/diger/eDergi.tar.gz">eDergi İndirme Betiği</a>
 
-Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yazıyoum (aşağıdaki komutlar uçbirimde yazılacaktır);
+Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yazıyorum (aşağıdaki komutlar uçbirimde yazılacaktır);
 
 
 1. Betiğin bulunduğu dizine gidelim;<br/>
