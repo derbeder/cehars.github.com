@@ -39,25 +39,3 @@ listelerden alınmasından kaynaklanmaktadır.
 Betiği aşağıdaki bağlantıdan indirebilirsiniz.
 
 <a href="http://www.emreaytac.com/diger/eDergi.tar.gz"target="_blank">eDergi İndirme Betiği<a>
-
-Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yazıyoum (aşağıdaki komutlar uçbirimde yazılacaktır);
-
-
-1. Betiğin bulunduğu dizine gidelim;
->>> cd ~
-
-2. Betiği arşivden çıkarmak için;
->>> tar zxvf eDergi.tar.gz
-
-3. Betiğe çalıştırma yetkisi verme;
->>> chmod a+x eDergi
-
-4. Betiği çalıştırma;
->>> ./eDergi
-
-Not: Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak çalıştırabilirsiniz. 
-Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.
->>> sh eDergi
-
-
-Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
