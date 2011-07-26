@@ -7,7 +7,7 @@ Sizi dergileri tek tek indirmekten kurtaracak bir betik..
 Dergi listeleri betik içinde değil, Internet’te tutulduğu için her seferinde betiği yeniden indirmenize gerek yok, 
 sadece betiğe yeni bir özellik eklendiğinde indirmeniz yeterli.
 
-﻿1. Sudo – Ubuntu Türkiye E-Dergisi
+1. Sudo – Ubuntu Türkiye E-Dergisi
 2. Full Circle Magazine Türkçe
 3. Full Circle Magazine
 4. Özgürlükİçin.com e-dergi
