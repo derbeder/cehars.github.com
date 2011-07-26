@@ -62,4 +62,4 @@ Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi 
 <br/>
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
 
-   <span align="center" class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;"> ana sayfa </span>
+<p align="center"><span  class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;" > ana sayfa </span></p>
