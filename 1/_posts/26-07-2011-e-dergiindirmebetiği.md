@@ -44,20 +44,20 @@ Betiği ev dizininize indirdiğinizi varsayarak nasıl kullanabileceğinizi yaz�
 
 
 1. Betiğin bulunduğu dizine gidelim;
->>> cd ~
+&gt;&gt;&gt; cd ~
 
 2. Betiği arşivden çıkarmak için;
->>> tar zxvf eDergi.tar.gz
+&gt;&gt;&gt; tar zxvf eDergi.tar.gz
 
 3. Betiğe çalıştırma yetkisi verme;
->>> chmod a+x eDergi
+&gt;&gt;&gt; chmod a+x eDergi
 
 4. Betiği çalıştırma;
->>> ./eDergi
+&gt;&gt;&gt; ./eDergi
 
 Not: Eğer isterseniz 3. ve 4. adımların yerine aşağıdaki komutu yazarak çalıştırabilirsiniz. 
 Aşağıdaki komut; çalıştırılacak dosyanın çalıştırılabilir yetkisi olup olmadığına bakmaz.
->>> sh eDergi
+&gt;&gt;&gt; sh eDergi
 
 
 Betiği yazan Emre Aytaç'a teşekkürler. Ellerine sağlık.. 
