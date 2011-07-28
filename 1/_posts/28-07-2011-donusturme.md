@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntuda Root Olarak Oturum Açmak
+title: Metin Dosyası Biçimi Dönüştürme
 ---
 
 Windows/Mac ve Ubuntu Linux Arasında Metin Dosyası Biçimi Dönüştürme
