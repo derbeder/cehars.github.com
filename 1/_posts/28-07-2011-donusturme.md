@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metin Dosyası Biçimi Dönüştürme
+title: Metin Dosyası Biçimi Dönüştürme	
 ---
 
 Windows/Mac ve Ubuntu Linux Arasında Metin Dosyası Biçimi Dönüştürme
@@ -35,7 +35,7 @@ mac'ten biridir, ascii öntanımlı olandır.
 
 
 dos2unix ve unix2dos'u nasıl kullanacağınız hakkında daha fazlası
-için, şunu okuyun:
+için:
 
 man dos2unix
 
