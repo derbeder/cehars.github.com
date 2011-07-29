@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Packegit
+title: Packagegit
 ---
 
 <p>
