@@ -51,10 +51,12 @@ olursunuz. SIGUSR1 sinyali, üzerine fonksiyon yazılabilen bir sinyaldir.
 Yani siz programınıza şunu yaptırabilirsiniz;
 SIGUSR1 sinyalini alırsan; "şu, şu, şu" fonksiyonları çalıştır. Ya da aynı
 durum SIGUSR2 ya da diğer sinyal fonksiyonu yazılabilen sinyaller için de geçerlidir.
-killall -12 program_adi
+<br /><code>killall -12 program_adi</code>
+<br />
 Sürece SIGUSR2 sinyali gönderilir. Yani gördüğünüz gibi sadece
 program sonlandırmak için kullanmak zorunda değilsiniz.
-----------------------------
+
+<p>
 Bunları "ek bilgi" olarak değerlendirdim, çünkü bu komutları (killall 
 pkill) süreç sonlandırmak için kullanmak zorunda değilsiniz, ama 
 bizim başlığımız süreç sonlandırma. 
@@ -67,27 +69,30 @@ komutu ile sistemi izlerken "k" tuşuna basın (burada da aynı durum
 mevcut, yani k kısayolu kill'den geliyor fakat sadece sonlandırma 
 işlemi yapmak zorunda değiliz). k tuşuna bastıktan sonra sizden bir 
 pid numarası istenecek; 
-<code>PID to kill:</code>
+<br /><code>PID to kill:</code>
 Buraya işlem yapacağınız sürecin pid numarasını girin (istenilen süreç
 listede olmayabilir de, pid numarasını öğrenmenin alternatif bir yolu
 için, ipuçları bölümüne bakabilirsiniz). Daha sonra sizden bir girdi
 daha istenecek;
-Kill PID 3460 with signal [15]:
+<br /><code>Kill PID 3460 with signal [15]:</code>
 Bu bölümde de bize sorulan sürece göndermek istediğimiz sinyalin
 numarasıdır. Yine 9 göndererek sonlandırabiliriz (SIGKILL).
 Bir başka alternatif olarak htop komutu verip (sisteminizde htop yüklü
 değilse şu komut ile kurabilirsiniz; sudo apt-get install htop), işlem
 yapacağımız süreç üzerine gelerek "k" tuşuna bastığınızda size biraz
 daha görsel ve açık olarak göndermek istediğiniz sinyal sorulacak.
+</p>
+<p>
 Buradan istediğiniz sinyali seçebilirsiniz gönderebileceğiniz
 diğer sinyal alternatiflerini de görebilirsiniz.
 Sonlandırma işlemi için SIGKILL sinyalinin en garanti olacağını
 belirterek geçelim.
+</p>
 
 <p>Uzun uzadıya anlattığımız durumun özeti şu şekilde; bir süreci
 sonlandırmak istediğimizde yanıt alamazsak uçbirimden süreci 
 sonlandırabiliriz. Uçbirimden süreci sonlandırabilmek için aynı kapıya 
-çıkan çeşitli alternatiflerimiz var. pkill, killall, top, htop... Hangisi 
+çıkan çeşitli alternatiflerimiz var. <b>pkill, killall, top, htop...</b> Hangisi 
 kolayımıza giderse onu kullanabiliriz. 
 </p>
 
