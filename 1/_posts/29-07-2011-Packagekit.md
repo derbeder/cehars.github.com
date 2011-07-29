@@ -52,7 +52,7 @@ seçenekler olasıdır.
 <img src="/chrome/cehars19/310.jpg" width="400 " height="200" border="0">
 
 <p>
-Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
+--Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
 <ul>
 	<li>Önyükleme zamanı güvenlik güncellemeleri</li>
 	<li>Dosyaları otomatik olarak yükleme, ör. openoffice-clipart</li>
