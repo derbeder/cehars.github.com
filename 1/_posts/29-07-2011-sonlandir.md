@@ -38,11 +38,14 @@ ile, önceden de belirttiğim gibi bir süreci sonlandırmak (kill) zorunda
 değilsiniz. killall komutunun şu kullanımını sıkça görebilirsiniz; <
 <code>killall -9 program_adı </code>
 </p>
-Bu komut ile yapılan şu; programa kill sinyali (SIGKILL)
+
+<p>Bu komut ile yapılan şu; programa kill sinyali (SIGKILL)
 gönderiliyor. Bu sinyal ise programı doğrudan sonlandırmak için
 kullanılıyor. Fakat parametresini değiştirerek bu durum farklı bir hale
 getirilebilir. Örneğin;
-killall -10 program_adı
+<code>killall -10 program_adı</code>
+</p>
+
 Bu şekilde bir programa SIGKILL değil, SIGUSR1 sinyali göndermiş
 olursunuz. SIGUSR1 sinyali, üzerine fonksiyon yazılabilen bir sinyaldir.
 Yani siz programınıza şunu yaptırabilirsiniz;
