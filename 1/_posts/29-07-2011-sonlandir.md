@@ -28,7 +28,7 @@ ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki kom
 </p>
 Ya da başka alternatif olarak  
 <code>killall pidgin</code> 
-<b>Ek bilgi;</b> 
+<br><b>Ek bilgi;</b>
 <p>Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
 durumlarında yapılacak işlemler için bir takım fonksiyonları devreye
