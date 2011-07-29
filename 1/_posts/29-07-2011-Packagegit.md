@@ -31,7 +31,7 @@ ertelemeyeceğiz ve kullanmıyorken bellek tüketmeyeceğiz.
 Gnome-packagekit, GNOME masaüstünde PackageKit için
 grafiksel araçların bir toplamının adıdır. KPackageKit ise PackageKit
 için KDE'de tasarlanan grafiksel araçların adıdır.
-<a href="http://kde-apps.org/content/show.php/show.php?content=84745" target="_blank">http://kde-apps.org/content/show.php/show.php?content=84745</a>
+<br /><a href="http://kde-apps.org/content/show.php/show.php?content=84745" target="_blank">http://kde-apps.org/content/show.php/show.php?content=84745</a>
 </p>
 
 <p>
