@@ -21,18 +21,13 @@ durum bunu gerektirir. Bizim inceleyeceğimiz ise şu durum; bir süreci
 sonlandırırken süreçten cevap alınmaması durumda izlememiz
 gereken yol.
 </p>
-bir programı kapatmak istiyoruz ve bu nedenle yukarıdaki
+<p>bir programı kapatmak istiyoruz ve bu nedenle yukarıdaki
 (metacity'den bahsediyorum) çarpı işaretine bastık. Fakat süreç yanıt vermiyor. Durum bu şekildeyken epey alternatifimiz mevcut.
 pkill/killall. Bu komutlar ile cevap vermeyen programımıza uçbirimden
-ulaşmamız
-ve
-sonlandırmamız
-mümkün.
-Örneğin
-uçbirimden
-aşağıdaki komutu vermemiz bir alternatif olabilir.
-Ya da başka alternatif olarak 
-killall pidgin 
+ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki komutu vermemiz bir alternatif olabilir. 
+</p>
+Ya da başka alternatif olarak  
+<code>killall pidgin</code> 
 Ek bilgi; 
 Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
