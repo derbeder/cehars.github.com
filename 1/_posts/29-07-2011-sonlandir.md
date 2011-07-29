@@ -28,16 +28,16 @@ ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki kom
 </p>
 Ya da başka alternatif olarak  
 <code>killall pidgin</code> 
-Ek bilgi; 
-Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
+<b>Ek bilgi;</b> 
+<p>Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
 durumlarında yapılacak işlemler için bir takım fonksiyonları devreye
 sokmak isteyebilirsiniz. "killall programadı" bu komut varsayılan olarak
 süreci sonlandırır. Fakat ismindeki kill sizi yanıltmasın, bu uygulama 
 ile, önceden de belirttiğim gibi bir süreci sonlandırmak (kill) zorunda 
-değilsiniz. killall komutunun şu kullanımını sıkça görebilirsiniz; 
-killall -9 program_adı 
-
+değilsiniz. killall komutunun şu kullanımını sıkça görebilirsiniz; <
+<code>killall -9 program_adı </code>
+</p>
 Bu komut ile yapılan şu; programa kill sinyali (SIGKILL)
 gönderiliyor. Bu sinyal ise programı doğrudan sonlandırmak için
 kullanılıyor. Fakat parametresini değiştirerek bu durum farklı bir hale
