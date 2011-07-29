@@ -47,8 +47,8 @@ belirleyebilir. Ev kullanıcıları için kullanıcıya kendi parolasını ya da
 yöneticinin root parolasını sorması doğaldır. policyKit ile, tüm bu
 seçenekler olasıdır.
 </p>
-
-<img src="/chrome/yazılar/Packagekit/1.png" width="400" height="100">
+<br />
+<img src="/chrome/yazılar/Packagekit/1.png" width="500" height="250">
 
 <p>
 Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
