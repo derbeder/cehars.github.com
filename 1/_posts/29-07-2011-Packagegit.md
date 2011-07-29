@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Packagegit
+title: PackageKit
+
 ---
 
 <p>
 <b>Packegit</b>, bilgisayarınızda yazılımları daha kolay güncellemek
 ve kurmak için tasarlanmış bir sistemdir. Birincil dizayn amacı, farklı
 dağıtımların tüm grafiksel yazılım araçlarını birleştirmek ve süreci
-daha az soğurması için PolicyKit benzeri bazı son teknolojileri
-kullanmaktır. Başka bir deyişle PackageKit, oturum kullanıcısına
+daha az soğurması için <b>PolicyKit</b> benzeri bazı son teknolojileri
+kullanmaktır. Başka bir deyişle <b>PackageKit</b>, oturum kullanıcısına
 güvenli bir yolla melez bir distro ve melez-mimari API kullanarak
 paketleri yönetme olanağı tanıyan bir D-Bus soyutlama katmanıdır.
 </p>
