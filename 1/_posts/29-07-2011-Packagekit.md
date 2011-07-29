@@ -66,3 +66,5 @@ Daha fazla detayı wiki sayfasında bulabilirsiniz.
 Packagekit ve gnome-packagekit GPLv2+ lisanslıdır. Yani
 bu
 yazılımları GNU lisansı dahilinde değiştirebilir ve dağıtabilirsiniz.
+
+<img src="/chrome/yazılar/Packagekit/6.png" width="500" height="250">
