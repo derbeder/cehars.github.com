@@ -29,7 +29,7 @@ ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki kom
 </p>
 
 Ya da başka alternatif olarak  
-</b><code>killall pidgin</code> </b>
+<code>killall pidgin</code> 
 <p><b>Ek bilgi;</b></p>
 <p>Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
