@@ -31,10 +31,11 @@ ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki kom
 Ya da başka alternatif olarak  
 <code>killall pidgin</code> 
 <p><b>Ek bilgi;</b></p>
+
 <p>Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
 durumlarında yapılacak işlemler için bir takım fonksiyonları devreye
-sokmak isteyebilirsiniz. "killall programadı" bu komut varsayılan olarak
+sokmak isteyebilirsiniz. <b>"killall programadı"</b> bu komut varsayılan olarak
 süreci sonlandırır. Fakat ismindeki kill sizi yanıltmasın, bu uygulama 
 ile, önceden de belirttiğim gibi bir süreci sonlandırmak (kill) zorunda 
 değilsiniz. killall komutunun şu kullanımını sıkça görebilirsiniz; <
@@ -66,11 +67,11 @@ bizim başlığımız süreç sonlandırma.
 alamadığımız süreçleri uçbirim üzerinden sonlandırabiliriyoruz. Hatta 
 uçbirim üzerinden sonlandırmak için de tek alternatifimiz bu komutla 
 değil. Sanırım çoğumuz gerekli durumlarda sistemin anlık durumunu 
-gözetlemek için "top" komutunu kullanıyoruzdur. Uçbirimden "top" 
-komutu ile sistemi izlerken "k" tuşuna basın (burada da aynı durum 
+gözetlemek için <b>"top"</b> komutunu kullanıyoruzdur. Uçbirimden "top" 
+komutu ile sistemi izlerken <b>"k"</b> tuşuna basın (burada da aynı durum 
 mevcut, yani k kısayolu kill'den geliyor fakat sadece sonlandırma 
 işlemi yapmak zorunda değiliz). k tuşuna bastıktan sonra sizden bir 
-pid numarası istenecek; 
+<b>pid numarası</b> istenecek; 
 <br /><code>PID to kill:</code>
 Buraya işlem yapacağınız sürecin pid numarasını girin (istenilen süreç
 listede olmayabilir de, pid numarasını öğrenmenin alternatif bir yolu
@@ -79,7 +80,7 @@ daha istenecek;
 <br /><code>Kill PID 3460 with signal [15]:</code>
 Bu bölümde de bize sorulan sürece göndermek istediğimiz sinyalin
 numarasıdır. Yine 9 göndererek sonlandırabiliriz (SIGKILL).
-Bir başka alternatif olarak htop komutu verip (sisteminizde htop yüklü
+Bir başka alternatif olarak <b>htop</b> komutu verip (sisteminizde htop yüklü
 değilse şu komut ile kurabilirsiniz; sudo apt-get install htop), işlem
 yapacağımız süreç üzerine gelerek "k" tuşuna bastığınızda size biraz
 daha görsel ve açık olarak göndermek istediğiniz sinyal sorulacak.
@@ -104,23 +105,13 @@ durumda kaldığımızı düşünelim. Bu durumda normal yollardan
 (menüden ya da alt + F2 ile) uçbirime ulaşmamız mümkün
 olmayacaktır. Aslında bu adım sadece bir noktada yukarıdaki
 işlemden fark gösterecektir.
-Böyle bir durumda ihtiyaç duyacağımız araç; sistemi "kilitleyen"
+Böyle bir durumda ihtiyaç duyacağımız araç; sistemi <b>"kilitleyen"</b>
 süreçleri sonlandırmak için kullanacağımız bir uçbirim. Yani eğer bir
 uçbirim bulabilirsek yukarıda bahsettiğimiz adımları uygulayabiliriz. Bu
-noktada yardımımıza koşacak olan araç "tty". İzleyeceğimiz yol ise "ctrl
-+ alt + F1" kombinasyonunu kullanarak tty1'e düşmek. Bu işlemden
+noktada yardımımıza koşacak olan araç <b>"tty"</b>. İzleyeceğimiz yol ise <b>"ctrl
++ alt + F1"</b> kombinasyonunu kullanarak tty1'e düşmek. Bu işlemden
 sonra bize giriş yapacağımız kullanıcı adı/şifre sorulacak. İşlemleri
 devam ettireceğimiz kullanıcı adını girerek uçbirime düşebiliriz. Yani
 artık bir uçbirime sahip oluyoruz. Sonlandırmak istediğimiz süreci
 istediğimiz/kolayımıza gelen herhangi bir yol ile sonlandırabiliriz.
 </p>
-
-
-
-
-
-
- 
-
-
-
