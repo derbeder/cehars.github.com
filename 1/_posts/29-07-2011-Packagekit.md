@@ -48,7 +48,7 @@ yöneticinin root parolasını sorması doğaldır. policyKit ile, tüm bu
 seçenekler olasıdır.
 </p>
 
-<img src="/chrome/yazılar/Packagekit/1.png" width="400 " height="200" border="0">
+<img src="/chrome/yazılar/Packagekit/1.png">
 <img src="/chrome/cehars19/310.jpg" width="400 " height="200" border="0">
 
 <p>
