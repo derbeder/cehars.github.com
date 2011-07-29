@@ -48,11 +48,10 @@ yöneticinin root parolasını sorması doğaldır. policyKit ile, tüm bu
 seçenekler olasıdır.
 </p>
 
-<img src="/chrome/yazılar/Packagekit/1.png">
-<img src="/chrome/cehars19/310.jpg" width="400 " height="200" border="0">
+<img src="/chrome/yazılar/Paclagekit/1.png widht="400" height="100">
 
 <p>
---Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
+Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
 <ul>
 	<li>Önyükleme zamanı güvenlik güncellemeleri</li>
 	<li>Dosyaları otomatik olarak yükleme, ör. openoffice-clipart</li>
