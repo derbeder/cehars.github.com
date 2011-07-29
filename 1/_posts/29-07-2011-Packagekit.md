@@ -13,7 +13,9 @@ kullanmaktır. Başka bir deyişle <b>PackageKit</b>, oturum kullanıcısına
 güvenli bir yolla melez bir distro ve melez-mimari API kullanarak
 paketleri yönetme olanağı tanıyan bir D-Bus soyutlama katmanıdır.
 </p>
-<img src="/chrome/yazılar/Packagekit/5.jp" width="500" height="250">
+
+<img src="/chrome/yazılar/Packagekit/5.jpg" width="500" height="250">
+
 <p>Distroların güncel kullandıkları (yum, apt, conary, vb)
 PackageKit tarafından derlenmiş ve betiklenmiş yardımcılar vasıtasıyla
 kullanılmaktadır. PackageKit bu araçların yerlerini alma anlamını
