@@ -14,7 +14,7 @@ güvenli bir yolla melez bir distro ve melez-mimari API kullanarak
 paketleri yönetme olanağı tanıyan bir D-Bus soyutlama katmanıdır.
 </p>
 
-<img src="/chrome/yazılar/Packagekit/5.jpg" width="700" height="300">
+<img src="/chrome/yazılar/Packagekit/5.jpg" width="700" height="350">
 
 <p>Distroların güncel kullandıkları (yum, apt, conary, vb)
 PackageKit tarafından derlenmiş ve betiklenmiş yardımcılar vasıtasıyla
