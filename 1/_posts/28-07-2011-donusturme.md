@@ -41,4 +41,4 @@ man dos2unix
 
 <a href="http://ubuntuguide.net/convert-text-file-format-between-windowsmac-and-ubuntu-linux" target="_blank">http://ubuntuguide.net/convert-text-file-format-between-windowsmac-and-ubuntu-linux</a>
 
-
+<a href="http://cehars.github.com/"><p align="center"><span  class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;" > ana sayfa </span></p></a>
