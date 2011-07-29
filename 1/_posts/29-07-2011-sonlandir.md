@@ -115,3 +115,4 @@ devam ettireceğimiz kullanıcı adını girerek uçbirime düşebiliriz. Yani
 artık bir uçbirime sahip oluyoruz. Sonlandırmak istediğimiz süreci
 istediğimiz/kolayımıza gelen herhangi bir yol ile sonlandırabiliriz.
 </p>
+<a href="http://ubuntuguide.net/convert-text-file-format-between-windowsmac-and-ubuntu-linux" target="_blank">http://ubuntuguide.net/convert-text-file-format-between-windowsmac-and-ubuntu-linux</a>
