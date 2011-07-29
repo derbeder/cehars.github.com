@@ -68,3 +68,5 @@ bu
 yazılımları GNU lisansı dahilinde değiştirebilir ve dağıtabilirsiniz.
 
 <img src="/chrome/yazılar/Packagekit/6.png" width="500" height="250">
+
+<a href="http://cehars.github.com/"><p align="center"><span  class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;" > ana sayfa </span></p></a>
