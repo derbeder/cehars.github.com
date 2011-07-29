@@ -3,7 +3,7 @@ layout: post
 title: Süreç sonlandırma
 ---
 
-Konuya, başlıkta adı geçen "süreç" ile başlayalım. Süreç yani
+Konuya, başlıkta adı geçen <b>"süreç"</b> ile başlayalım. Süreç yani
 İngilizce adı ile process; çalışan dosyaların çalışır durumdaki haline
 verilen isim olarak tanımlanıyor. Yani daha açık olarak ve örnek
 üzerinden anlatacak olursak; Pidgin anında mesajlaşma aracını
@@ -11,23 +11,25 @@ verilen isim olarak tanımlanıyor. Yani daha açık olarak ve örnek
 komutu uçbirimden verdiğimiz (programı menüden tıklayarak
 çalıştırdığımızda da arkada olan olay bu komutun verilmesi tabi)
 zaman Pidgin programı belleğe yüklenmiş oluyor ve bu belleğe
-yüklenmiş durumundan artık süreç (process) olarak bahsediyoruz.
+yüklenmiş durumundan artık <b>süreç (process)</b> olarak bahsediyoruz.
+
 <p>Çalıştırdığımız Pidgin'i sonlandırmak için izleyeceğimiz bir kaç 
 yol mevcut. Tabi Pidgin'i tıkladık, normal şartlar altında da bir kaç
 alternatifimiz mevcut; bildirim alanında sağ tıklayarak; çıkış diyebiliriz.
 Ya da program ana sayfası açıkken menülerden <b>kişiler -> çıkış</b>
 alternatifini kullanarak, bu süreci sonlandırabiliriz; ki zaten olağan
 durum bunu gerektirir. Bizim inceleyeceğimiz ise şu durum; bir süreci
-sonlandırırken süreçten cevap alınmaması durumda izlememiz
-gereken yol.
+sonlandırırken süreçten cevap alınmaması durumda izlememiz gereken yol.
 </p>
+
 <p>bir programı kapatmak istiyoruz ve bu nedenle yukarıdaki
 (metacity'den bahsediyorum) çarpı işaretine bastık. Fakat süreç yanıt vermiyor. Durum bu şekildeyken epey alternatifimiz mevcut.
-pkill/killall. Bu komutlar ile cevap vermeyen programımıza uçbirimden
+<b>pkill/killall.</b> Bu komutlar ile cevap vermeyen programımıza uçbirimden
 ulaşmamız ve sonlandırmamız mümkün. Örneğin uçbirimden aşağıdaki komutu vermemiz bir alternatif olabilir. 
 </p>
+
 Ya da başka alternatif olarak  
-<code>killall pidgin</code> 
+</b><code>killall pidgin</code> </b>
 <p><b>Ek bilgi;</b></p>
 <p>Bu komutlar ile bir süreci sonlandırmak zorunda değilsiniz tabii.
 Örneğin kendi yazdığınız bir uygulama için yanıt vermeme
