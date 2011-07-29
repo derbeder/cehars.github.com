@@ -7,12 +7,12 @@ Konuya, başlıkta adı geçen "süreç" ile başlayalım. Süreç yani
 İngilizce adı ile process; çalışan dosyaların çalışır durumdaki haline
 verilen isim olarak tanımlanıyor. Yani daha açık olarak ve örnek
 üzerinden anlatacak olursak; Pidgin anında mesajlaşma aracını
-çalıştırmak için kullandığımız "çalışan" dosya "/usr/bin/pidgin". Bu
+çalıştırmak için kullandığımız "çalışan" dosya <b>"/usr/bin/pidgin"</b>. Bu
 komutu uçbirimden verdiğimiz (programı menüden tıklayarak
 çalıştırdığımızda da arkada olan olay bu komutun verilmesi tabi)
 zaman Pidgin programı belleğe yüklenmiş oluyor ve bu belleğe
 yüklenmiş durumundan artık süreç (process) olarak bahsediyoruz.
-Çalıştırdığımız Pidgin'i sonlandırmak için izleyeceğimiz bir kaç 
+<p>Çalıştırdığımız Pidgin'i sonlandırmak için izleyeceğimiz bir kaç 
 yol mevcut. Tabi Pidgin'i tıkladık, normal şartlar altında da bir kaç
 alternatifimiz mevcut; bildirim alanında sağ tıklayarak; çıkış diyebiliriz.
 Ya da program ana sayfası açıkken menülerden <b>kişiler -> çıkış</b>
@@ -20,7 +20,7 @@ alternatifini kullanarak, bu süreci sonlandırabiliriz; ki zaten olağan
 durum bunu gerektirir. Bizim inceleyeceğimiz ise şu durum; bir süreci
 sonlandırırken süreçten cevap alınmaması durumda izlememiz
 gereken yol.
-------------------
+</p>
 bir programı kapatmak istiyoruz ve bu nedenle yukarıdaki
 (metacity'den bahsediyorum) çarpı işaretine bastık. Fakat süreç yanıt vermiyor. Durum bu şekildeyken epey alternatifimiz mevcut.
 pkill/killall. Bu komutlar ile cevap vermeyen programımıza uçbirimden
