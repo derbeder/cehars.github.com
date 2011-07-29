@@ -49,6 +49,7 @@ seçenekler olasıdır.
 </p>
 
 <img src="/chrome/yazılar/Packagekit/1.png" width="400 " height="200" border="0">
+<img src="/chrome/cehars19/310.jpg" width="400 " height="200" border="0">
 
 <p>
 Aşağıdaki senaryolar için PackageKit kullanabilirsiniz:
