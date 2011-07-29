@@ -9,13 +9,13 @@ verilen isim olarak tanımlanıyor. Yani daha açık olarak ve örnek
 üzerinden anlatacak olursak; Pidgin anında mesajlaşma aracını
 çalıştırmak için kullandığımız "çalışan" dosya "/usr/bin/pidgin". Bu
 komutu uçbirimden verdiğimiz (programı menüden tıklayarak
-çalıştırdığımızda da arkada olan olay bu komutun verilmesi tabii) 
+çalıştırdığımızda da arkada olan olay bu komutun verilmesi tabi)
 zaman Pidgin programı belleğe yüklenmiş oluyor ve bu belleğe
 yüklenmiş durumundan artık süreç (process) olarak bahsediyoruz.
 Çalıştırdığımız Pidgin'i sonlandırmak için izleyeceğimiz bir kaç 
-yol mevcut. Tabii Pidgin'i tıkladık, normal şartlar altında da bir kaç
+yol mevcut. Tabi Pidgin'i tıkladık, normal şartlar altında da bir kaç
 alternatifimiz mevcut; bildirim alanında sağ tıklayarak; çıkış diyebiliriz.
-Ya da program ana sayfası açıkken menülerden kişiler -> çıkış
+Ya da program ana sayfası açıkken menülerden <b>kişiler -> çıkış</b>
 alternatifini kullanarak, bu süreci sonlandırabiliriz; ki zaten olağan
 durum bunu gerektirir. Bizim inceleyeceğimiz ise şu durum; bir süreci
 sonlandırırken süreçten cevap alınmaması durumda izlememiz
