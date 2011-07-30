@@ -7,7 +7,7 @@ Ubuntu kullanırken sürekli şifre girmekten sıkıldıysanız ya da başka bir
 
 Bir terminal açın ve şu komutu girin:
 <br />
-<code>sudo passwd root<code>
+<code>sudo passwd root</code>
 
 Bunu yazınca bilgisayar sizden yeni root şifresini yazmanızı isteyecek, buraya uygun gördüğünüz şifreyi yazın. Ardından bilgisayar şifreyi doğrulamanızı isteyecek, yazdığınız şifreyi tekrar yazın.
 Şimdi mevcut oturumunuzdan çıkın ve giriş ekranında diğer kullanıcı seçeneğine tıklayın ve kullanıcı adı olarak “root” yazın ve şifre olarak da az önce yazdığınız şifreyi girin.
