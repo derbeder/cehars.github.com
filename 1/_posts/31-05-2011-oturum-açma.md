@@ -10,4 +10,4 @@ Bir terminal açın ve şu komutu girin:
 <code>sudo passwd root</code>
 
 Bunu yazınca bilgisayar sizden yeni root şifresini yazmanızı isteyecek, buraya uygun gördüğünüz şifreyi yazın. Ardından bilgisayar şifreyi doğrulamanızı isteyecek, yazdığınız şifreyi tekrar yazın.
-Şimdi mevcut oturumunuzdan çıkın ve giriş ekranında diğer kullanıcı seçeneğine tıklayın ve kullanıcı adı olarak “root” yazın ve şifre olarak da az önce yazdığınız şifreyi girin.
+Şimdi mevcut oturumunuzdan çıkın ve giriş ekranında diğer kullanıcı seçeneğine tıklayın ve kullanıcı adı olarak <b>“root”</b> yazın ve şifre olarak da az önce yazdığınız şifreyi girin.
