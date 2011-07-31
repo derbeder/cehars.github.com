@@ -29,3 +29,14 @@ Burada dosya sahibinin izinlerini ifade eden üçlüde "x" yerine "s" var.
 Bu "s" harfi; suid ve çalıştırılabilirlik bitlerinin ayarlandığını belirtir.Böylece <u>passwd komutu</u> çalıştığında, o anda çalıştıran kullanıcı değilde root kullanıcısı tarafından  çalıştırılıyormuş gibi olacaktır.
 Ve passwd komutu root haklarıyla çalışınca, /etc/shadow dosyasınıda bir problem olmadan düzenleyebilecektir.Tabiki geçici olarak. =)
 
+<b>EK BİLGİ:</b> 
+/etc/passwd 'de kullanıcı hesapları vardır.<br>
+/etc/shadow 'da şifreler saklıdır.
+
+###<a id="sgid-bit"> Sgid Biti </a>
+
+Programların o anda çalışan kullanıcıya göre değilde programın üzerindeki <u>grup</u> haklarına göre çalışmasına dayanır.
+
+ls -l listelemesinde suid ve sgid bitleri "x" harfinin (yani çalıştırma/erişim yetkisinin) olduğu yerdedir.
+Eğer hem "x" hemde suid/sgid bitleri aktifse listede "s" (küçük harf) olacaktır."x" biti aktif değilse "S" (büyük harf) olarak görülür.
+
