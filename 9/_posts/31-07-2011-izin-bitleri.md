@@ -40,6 +40,9 @@ Programların o anda çalışan kullanıcıya göre değilde programın üzerind
 ls -l listelemesinde suid ve sgid bitleri "x" harfinin (yani çalıştırma/erişim yetkisinin) olduğu yerdedir.
 Eğer hem "x" hemde suid/sgid bitleri aktifse listede "s" (küçük harf) olacaktır."x" biti aktif değilse "S" (büyük harf) olarak görülür.
 
+###<a id="suid-sgid-degistirme"> Suid Ve Sgid Bitlerinin Değiştirilmesi </a>
+u : user
+g : group
 
 <code>chmod u+s /usr/bin/program_adi</code> 
 
