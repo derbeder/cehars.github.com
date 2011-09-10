@@ -11,3 +11,6 @@ Bir terminal açın ve şu komutu girin:
 
 Bunu yazınca bilgisayar sizden yeni root şifresini yazmanızı isteyecek, buraya uygun gördüğünüz şifreyi yazın. Ardından bilgisayar şifreyi doğrulamanızı isteyecek, yazdığınız şifreyi tekrar yazın.
 Şimdi mevcut oturumunuzdan çıkın ve giriş ekranında diğer kullanıcı seçeneğine tıklayın ve kullanıcı adı olarak <b>“root”</b> yazın ve şifre olarak da az önce yazdığınız şifreyi girin.
+
+
+<a href="http://cehars.github.com/"><p align="center"><span  class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;" > ana sayfa </span></p></a>
