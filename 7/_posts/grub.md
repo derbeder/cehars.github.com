@@ -1,0 +1,61 @@
+---
+layout: post
+title: Pardus Grub Menüsüne Ubuntu Eklemek
+
+---
+
+En sık karşılaşılan sorunlardan biri de Pardus kurulduktan sonra Ubuntu işletim sisteminin açılışta Grub menüsünde görünmemesidir.
+Bunu <b>”Pardus Açılış Yöneticisi”</b> ile düzeltmek çok kolaydır.
+İlk yapmamız gereken Ubuntu’nun yüklü olduğu disk bölümüne
+giderek <b>boot/grub/grub.cfg</b> dosyasını bulmak.
+
+<img src="/chrome/yazılar/pardus/1.png"  width="400" height="250" />
+<br />
+
+grub.cfg dosyasının içinde <b>”menuentry ‘Ubuntu, with Linux 2.6.35-22-generic”</b> satırının olduğu bölümü buluyoruz. Bizim için gerekli olan bütün bilgiler bu satırın altında mevcut.
+
+Grub’a dahil edeceğimiz bilgileri bulduğumuza göre artık Pardus
+2011 sistem ayarlarını açarak işlemlere başlayabiliriz.
+Açılış Yöneticisini açıyoruz.
+
+<img src="/chrome/yazılar/pardus/2.png"  width="400" height="250" />
+<br />
+<br />
+<ul type="disc">
+<li>Başlık bölümü; <b>”Ubuntu”</b> yazıyoruz. (buraya sürüm ismi veya
+numarasını girebilirsiniz)</li>
+<br />
+ 
+<li>Disk bölümü; Ubuntu’nun yüklü olduğu disk numarasını
+<b>/dev/sda1</b> şeklinde yazıyoruz. Sizin Ubuntu yüklü diskiniz farklı bir
+numara içeriyorsa onu yazmalısınız. Örneğin: /dev/sda3 gibi.</li>
+<br />
+
+<li>Çekirdek bölümü; <b>”menuentry ‘Ubuntu, with Linux 2.6.35-
+22-generic”</b> kısmının altında <b>”linux”</b> diye başlıyan satırın <b>”/boot/vmlinuz-2.6.35-22-generic”</b> yazan bölümünü kopyala
+yapıştır ile ekliyoruz.</li>
+<br />
+ 
+<li>Ramdisk Dosyası bölümü; <b>”initrd”</b> satırından sonra gelen
+<b>”/boot/initrd.img-2.6.35-22-generic”</b> yazan bölümünü kopyala
+yapıştır ile ekliyoruz.</li>
+<br />
+ 
+<li>Açılış Seçenekleri bölümü; <b>”initrd”</b> satırında <b>”/boot/initrd.img-
+2.6.35-22-generic”</b> bitiminden sonra devam eden kısmını
+<b>‘‘root=UUID=591f134c-9641-49ac-b204-403c9671fb0b
+ro
+vga=792 splash quiet splash”</b> kopyala yapıştır tekniğiyle alarak
+<b>”Açılış Seçenekleri”</b> bölümüne yapıştırıyoruz.
+</li>
+</ul>  
+
+
+
+
+
+Uygula ve Tamam diyerek ayarlarımızı bitiriyoruz.
+
+Bilgisayara ”Restart” yaparak Pardus Grub menüsüne Ubuntu’nun geldiğini görebilir ve artık Ubuntu’yu sorunsuz olarak kullanabiliriz.
+
+<a href="http://cehars.github.com/"><p align="center"><span  class="Apple-style-span" style="color: rgb(255, 0, 0); font-family: 'Comic Sans MS'; font-size: 15px; line-height: 22px; text-align: justify;" > ana sayfa </span></p></a>
